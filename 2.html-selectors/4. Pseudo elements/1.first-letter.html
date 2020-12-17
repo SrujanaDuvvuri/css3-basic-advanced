@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo element selector</title>
+    <style>
+        p::first-line{
+            color:blue;
+        }
+        div::first-letter{
+            font-style:bold;
+            color: red;
+            font-size: xx-large;
+        }
+        span::first-letter{
+            font-style:bold;
+            color: red;
+            font-size: xx-large;
+        }
+        p.paragraph::first-letter{
+            color:red;
+            font-size: 200%;
+        }
+        div::first-letter, div::first-line {
+            color:seagreen;
+            font-size: xx-large;
+        }
+        div::first-line{
+            color:red;
+            font-variant: small-caps;
+        }
+        div{
+            font-variant: ;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        This is the first line of the element to add 
+        a special effect to the first line of the text.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Esse harum doloribus iusto tenetur expedita, voluptas eaque suscipit 
+        laboriosam beatae ipsum maiores iure 
+        assumenda accusamus cupiditate alias nam porro maxime quibusdam.
+    </p>
+    <div>This is my div</div>
+    <br>
+    <span>
+        This is a span
+    </span>
+    <p class="paragraph">This is my paragraph</p>
+    <p>This is another para with more text</p>
+    <div class="container"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, a?</div>
+
+</body>
+</html>

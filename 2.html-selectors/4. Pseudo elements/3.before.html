@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>before selector</title>
+    <style>
+        h1::before{
+            width:10px;
+            height: 10px;
+            content:url("../../Images/20200803_193252.jpg")
+        }
+    </style>
+</head>
+<body>
+    <h1>This is heading</h1>
+    <p>The ::before pseudo element inserts content before the content 
+        of an element
+    </p>
+    <h1>This is another heading</h1>
+    <p><b>
+        Note: 
+    </b>
+    Ie8 support content property only of !doctype is specified.
+    </p>
+</body>
+</html>

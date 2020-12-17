@@ -1,0 +1,21 @@
+! + tab - prefill html template
+ctrl+d to select multiple lines and write
+ctrl+= / - for comments
+div.class -- <div class="class"></div>
+div.id -- <div class="id"></div>
+.class -- <div class="class"></div>
+.divOne -- <div class="divOne"></div>
+#user -- <div id="user"></div>
+div*3 - <div></div>
+    <div></div>
+    <div></div>
+
+div*3.divOne --  <div class="divOne"></div>
+ <div class="divOne"></div>
+  <div class="divOne"></div>
+
+  div*3.#idd --  <div id="idd"></div>
+ <div id="idd"></div>
+  <div id="idd"></div>
+
+

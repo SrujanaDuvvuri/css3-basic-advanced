@@ -1,0 +1,139 @@
+CSS3  (CSS1, CSS2, CSS2.1 AND CSS3)
+---------
+1. Inline
+2. Internal
+3. Exteral
+
+New features
+-------------
+
+1. new selectors -- better selection lof HTML elements
+2. shadow effects -- box-shadow, text-shadow
+3. rounded corners - easily round the corner of images and for block level elements
+4. Gradients -- 
+5. opacity --
+6. transistions -
+7. transformations -
+8. flex-box - 
+9.  multi - column layout
+10. grid 
+
+CSS3 is supported in HTML5 browsers
+
+    - IE8 and lesser doesnt support CSS3
+    - IE9 supports but not fully
+    - IE10, Edge, chrome, firefox, safari, supports CSS3.
+
+Selectors:
+--------------------
+
+    Simple selectors --  select elements based on name, id and class
+    combinator selectors -- select elements based o specific relationship between them
+    pseudo-class selectors -- select elements based on certain state.
+    pseudo element selectors -- select elements and style the part of elements
+    attribute selectors -- select elements based on attribute or attribute-value.
+
+
+Advantages
+------------
+
+CSS save time
+page load faster
+easy maintainance
+superior style to HTML
+multiple device compatability
+global web standards
+
+
+@import - will alllow us to import a stylesheet into another one
+must be at the top of css doc
+supports media queries
+
+
+
+Colors in CSS3
+-------------------
+Color names -- red, green, yellow, gray, blue
+HTML5 Colors -- coral, bluevioliet, darkgoldenrod, darkmagenta
+hexa decimal Colors -- #RRGGBB -- #64c2ff, #ccffcc (#cfc), 
+RGB - red green blue
+
+Create HTML shortcuts
+------------------------
+.class+tab      -- will create div with class attribute
+div.classname   -- will create div element with class attribute
+div#id + tab    -- will create div element with id attribute
+div*3.class + tab -- will create 3 div elements with class attributes
+div*3.#id _ tab -- will create 3 div elements with id attributes
+ctrl + / -- comments
+
+Simple selectors
+----------------
+element, class, id
+
+combinator selectors
+--------------------
+1. descendant selector (space)
+2. child selector (>)
+3. adjacent sibling selector (+)
+4. general sibling selector (-)
+
+Pseudo class selectors(adds sepcial effects)
+------------------------
+A pseudo selector matches components based on a additional condition and 
+not necessarily defined the by the document tree.
+
+Pseudo class
+------------
+Allows you to style the dynamic states of an element such as hover, active and focus state.
+
+Syntax: 
+Selector: pseudo-class{
+    property: value;
+}
+
+:active
+:hover
+:visited
+:link
+
+Pseudo element selectors
+-------------------------------
+Pseudo element is used to style specified parts of an element
+We dont need javascript or any other script to bring those effects
+
+for e.g: 
+1. Style the first letter or first line of the element
+2. Inser the content before or after the content of an elements
+
+Syntax:
+selector :: pseudo-element{
+    property: value;
+}
+
+double colon syntax is introduced in CSS3 ealier 
+single colon was used for both pseudo class and pseudo elements 
+(CSS2 and CSS1)
+
+::first-line
+::first-letter
+::before -- Insert content before the content
+::after -- Insert content after the content
+::select
+
+Note:  ::first-line, :: first-letter can only be applied to 
+block level elements 
+
+Attribute selectors
+-------------------------
+Select all elements with specified attributes
+select [attributes]
+a[target]
+div[class]
+
+selector[attribute="value"]
+div[class="classname"]
+
+selector[attribute="value"]
+-------------------------
+

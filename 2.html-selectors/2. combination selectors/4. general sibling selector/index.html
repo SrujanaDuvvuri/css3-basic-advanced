@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General sibling selectors</title>
+    <style>
+        div ~ p, h1{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>This is header</h1>
+        <p>para in div</p>
+        <p>para in div</p>
+        <section>
+            <p>para inside sec and in div</p>
+        </section>
+    </div>
+    <p>p is not in div</p>
+    <p>p is not in div</p>
+    <h1>this is headernew</h1>
+    <div>
+        <p>This is another div adjacent to h1</p>
+    </div>
+  
+    
+</body>
+</html>
