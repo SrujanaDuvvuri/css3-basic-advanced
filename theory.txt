@@ -136,4 +136,58 @@ div[class="classname"]
 
 selector[attribute="value"]
 -------------------------
+a[title="web"]
+
+
+background
+------------------
+property handles background color, image, position
+
+background-image
+--------------
+background-repeat: repeat-x - repeat the image horizontally
+                    repeat-y - repeat the image vertically
+background-position:  to align the image
+
+background-attachment(scroll, fixed, local)
+---------------------------------------------
+specifies whether the background image should scroll or be fixed
+
+background shorthand
+--------------------
+background-color
+background-image
+background-repeat
+background-attachment
+background-position
+or 
+background: #fff url no-repeat fixed top right
+
+background - clip
+----------------------
+The background clip property 
+
+Fonts
+----------
+Font-family -- used to change the face of the Font
+font-style - used to make font italic or oblique
+font-variant -- used to create caps effects
+font-weight -- increases or decreases font weight
+font-size -- size of the font
+
+font -- shorthand to specify other property
+
+
+opacity/tranparency
+---------------------
+Opacity specifies the opacity or tranparency of an element
+It can take value from 0.0 to 1.0
+Lower the value, the more tranparency .
+
+
+RGBA -- red, blue, green, alpha
+alpha specifies opacity of the color
+
+
+                    
 
