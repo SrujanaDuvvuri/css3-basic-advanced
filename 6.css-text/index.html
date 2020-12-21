@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Text</title>
+    <style>     
+        .para-color{
+            color:red;
+        }
+        .para-direction{
+            direction:rtl;  
+        }
+        .para-space-letters{
+            letter-spacing: 5px;
+        }
+        .para-space-word{
+            word-spacing: 15px;
+        }
+        .para-text-indent{
+            text-indent: 1cm; /*1cm = 37px*/
+        }
+        .text-align-right{
+            text-align: right;
+        }
+        .text-align-centre{
+            text-align: center;
+        }
+        .text-align-left{
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <p class="para-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem reprehenderit doloremque vero? Dolorem nobis perspiciatis tempora voluptate iure, quas voluptates nihil debitis nam, iusto quos harum maxime ipsam, eius molestias!</p>
+    <p class="para-direction">This text will be rendered from right to left, test in the browser
+        possible values are rtl or ltr
+    </p>
+    <p class="para-space-letters">This is having space b/w letters, posible values are normal or number spcifying the space</p>
+    <p class="para-space-word">This is having space b/w words, possible values are notmal or number specifiyting the space</p>
+    <p class="para-text-indent">This text will have first line inteded by 1cm and this line will remain at its actual positon</p>
+    <div>
+    <p class="text-align-right">This will be right aligned</p>
+    <p class="text-align-centre">This will be center aligned</p>
+    <p class="text-align-left">This will be left aligned</p>
+</div>
+</body>
+</html>

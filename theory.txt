@@ -188,6 +188,64 @@ Lower the value, the more tranparency .
 RGBA -- red, blue, green, alpha
 alpha specifies opacity of the color
 
+css-text
+------------------
+We use it to manipulate the text using CSS properties
+
+1.color - set the color for the text
+2. direction - sets the direction
+3. letter-spacing -- to add or subtract space between a letter that make up 
+4. Word-spacing -- add or subtract space between words of a sentence
+5. text-indent -- Indent the text of a paragraph
+6. text-align -- align the text of a document
+7. text-decoration -- To underline, overline, strikethrough
+8. text-transform -- To capitalize the text or convert uppercase or lowercase
+9. white-space - To control the flow and formatting of the text
+10. text-shadow- To set the shadow around a text.
+
+CSS-border
+--------------
+Will allow us to specifu the style, width and color of an elements border
+
+border-style
+--------------------
+specifies what kind of botder to display
+
+dotted -- defined dotted borders
+dashed - defines a dashed borders
+solid - defines a solid borders
+double - defines a double border
+groove -- defines a 3D grooved border, depends on background color
+ridge -- defines a 3D ridge border, depends on background color
+inset -- defines a 3D inset border, depends on background color
+outset -- defines a 3D outset border, depends on background color
+none - defones no border
+hidden - defines a hidden border
+
+border-width(will not work without border style)
+--------------------------------------------------
+specifies the width of the border
+
+we can set the width using specific size
+we can use pre-defined values - thin, thick or medium
+
+border width can have one to four values
+
+top-border
+right-border
+bottom-border
+left-border
+
+border-Color
+--------------------
+Used to specify the color of four borders
+
+border-sides
+------------------
+used to specify border for each sides
+
+
+
 
                     
 
